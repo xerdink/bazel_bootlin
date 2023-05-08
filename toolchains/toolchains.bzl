@@ -35,7 +35,7 @@ filegroup(
         name = toolchain_name,
         build_file_content = TOOLCHAIN_BUILD_FILE,
         url = ("https://toolchains.bootlin.com/downloads/releases/toolchains/" +
-               "{0}/tarballs/{0}--glibc--stable-{1}.tar.bz2").format(
+               "{0}/tarballs/{0}--glibc--bleeding-edge-{1}.tar.bz2").format(
             architecture,
             buildroot_version,
         ),
