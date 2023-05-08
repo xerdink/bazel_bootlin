@@ -22,6 +22,11 @@ _AVAILABLE_TOOLCHAINS = {
         },
     },
     'aarch64': {
+        '2022.08-1': {
+            'sha256': '844df3c99508030ee9cb1152cb182500bb9816ff01968f2e18591d51d766c9e7',
+            'platform_arch': 'aarch64',
+            'tool_prefix': 'aarch64-buildroot-linux-gnu',
+        },
         '2021.11-1': {
             'sha256': 'dec070196608124fa14c3f192364c5b5b057d7f34651ad58ebb8fc87959c97f7',
             'platform_arch': 'aarch64',
