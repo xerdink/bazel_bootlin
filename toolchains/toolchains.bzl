@@ -40,7 +40,7 @@ filegroup(
             buildroot_version,
         ),
         sha256 = AVAILABLE_TOOLCHAINS[architecture][buildroot_version]["sha256"],
-        strip_prefix = "{0}--glibc--stable-{1}".format(architecture, buildroot_version),
+        strip_prefix = "{0}--glibc--bleeding-edge-{1}".format(architecture, buildroot_version),
     )
 
     native.register_toolchains(
